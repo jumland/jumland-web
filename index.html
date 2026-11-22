@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><meta charset="windows-1252"><meta name="viewport" content="width=device-width, initial-scale=1">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Jens Umland &ndash; Freelance SEO Consultant for Search & LLMs</title>
 	<meta name="description" content="Freelance SEO consultant based in Hamburg, Germany. Strategic partner for brands building sustainable visibility in search engines and LLMs. Get in touch.">
-	<link href="https://jumland.com" rel="canonical"/>
+	<link href="https://jumland.com/" rel="canonical"/>
+	<link rel="alternate" hreflang="en" href="https://jumland.com/"/>
+	<link rel="alternate" hreflang="de" href="https://jumland.com/de/"/>
+	<link rel="alternate" hreflang="x-default" href="https://jumland.com/"/>
 	<link href="https://fonts.googleapis.com/css?family=IBM Plex Mono" rel="stylesheet" />
 	<style type="text/css">@font-face{
         font-family: 'IBM Plex Mono';
@@ -37,13 +40,14 @@ body{
     display:-webkit-box;
     display:-ms-flexbox;
     display:flex;
-    -webkit-box-align:center;
-    -ms-flex-align:center;
-    align-items:center;
+    -webkit-box-align:start;
+    -ms-flex-align:start;
+    align-items:flex-start;
     -webkit-box-pack:center;
     -ms-flex-pack:center;
     justify-content:center;
     padding:6vw;
+    padding-top:max(80px, 22vh);
     font-family:'IBM Plex Mono';
     font-size:12px;
     line-height:1.5;
@@ -57,6 +61,15 @@ a{
 }
 a:focus,a:hover{
     text-decoration:underline
+}
+.lang-switch{
+    position:fixed;
+    top:20px;
+    right:24px;
+    font-size:14px;
+    letter-spacing:0.05em;
+    -webkit-animation:fadein 0.3s;
+    animation:fadein 0.3s
 }
 .content{
     width:100%;
@@ -154,6 +167,7 @@ a:focus,a:hover{
 <meta name="robots" content="index, follow">
 </head>
 <body>
+<a class="lang-switch" href="/de/" hreflang="de" lang="de" aria-label="Deutsche Version">DE</a>
 <div class="content">
 <h1 class="title">Jens Umland</h1>
 
@@ -161,7 +175,7 @@ a:focus,a:hover{
 
 <p class="text">Hello, I'm Jens &#128075;<br />
 <br />
-I help brands grow organic search as a freelance SEO consultant based in Hamburg, Germany. With more than 15 years of cross-industry experience, I work as a strategic partner &mdash; building SEO strategies tailored to their business goals across technical, content, and analytics, for sustainable visibility in search engines and LLMs alike. Contact via email (<a href="mailto:hello@jumland.com">hello@jumland.com</a>).
+I help brands grow organic search as a freelance SEO consultant based in Hamburg, Germany. With more than 15 years of cross-industry experience, I work as a strategic partner &mdash; building SEO strategies tailored to their business goals across technical, content, and analytics, for sustainable visibility in search engines and LLMs alike. Contact via email (<a href="mailto:hello@jumland.com">hello@jumland.com</a>).</p>
 </div>
 </body>
 </html>
